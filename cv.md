@@ -38,7 +38,7 @@ unsigned int hotpo(unsigned int n){
 ## Experience
 
 ## Education
-* University: Kazakh British Technical University (KBTU), majoring in Computer Science and Software Engineering
+* University: Kazakh-British Technical University (KBTU), majoring in Computer Science and Software Engineering
 
-## English
+## English level
 English level between B1 and B2
