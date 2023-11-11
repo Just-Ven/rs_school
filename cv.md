@@ -8,3 +8,9 @@
 
 ## About me
 Hello everyone, my name is Alnur. I am a first year student, majoring in Computer Science and Software Engineering. I will do everything in my power to become a programmer.
+
+## Skills
+* HTML
+* CSS
+* JavaScript, C++
+* Git (Basics)
