@@ -1,1 +1,1 @@
-# rs_school
+https://Just-Ven.github.io/rsschool-cv/cv
