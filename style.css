@@ -1,152 +1,100 @@
-* {
+body{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
+.container{
+    margin: 20px auto;
+    width: 1024px;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
 }
-body {
+.two-columns{
+    display: flex;
+}
+.left-column{
+    width: 42%;
+    border: 1px solid #000;
+}
+.right-column{
+    width: 58%;
+    border: 1px solid #000;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+header h2{
+    margin-top: 10px;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    width: 50%;
+}
+main section{
+    padding: 0 40px;
+    background-color: rgba(209, 169, 11, 0.4);
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
-  }
-  .header {
+}
+.contacts{
+    justify-content: center;
+}
+main h3{
+    background-color: black;
+    padding: 10px;
+    width: 156px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0;
 }
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    height: 550px;
-    width: 960px;
+main li{
+    font-size: 23px;
+    margin-bottom: 10px;
 }
-.container-header {
-    background-color: #212838;
+.section-name{
+    display: flex;
+    justify-content: center;
 }
-.image-block {
-    background-color: #283042;
-    width: 240px;
-    height: 550px;
-    margin: -450px 1000px -100px 100px;
-    overflow: hidden;
+.right-column{
+    padding: 40px;
 }
-.image {
-    width: 100%;
-    margin: 120px 0px 0px 0px;
-    overflow: hidden;
+.about-myself h3{
+    margin-bottom: 0;
 }
-.name {
-    font-size: 38.5px;
-    color: white;
-    display: inline-block;
-    line-height: 0.9;
-    margin: 0px 100px 50px 415px;
+.right-column h3{
+    font-size: 23px;
 }
-.description {
-    margin: -95px 10000000000px 0px 415px;
-    display: inline-block;
-    color: white;
-    font-size: 16px;
-}
-.discord {
-    font-size: 21px;
-    color: white;
-    font-weight: bold;
-    margin: 40px 0px 0px 415px;
-}
-.discordname {
-    font-size: 17px;
-    color: white;
-    margin: 10px 0px 0px 415px;;
-}
-.phone {
-    font-size: 21px;
-    color: white;
-    font-weight: bold;
-    margin: -55px 0px 0px 690px;
-}
-.phone-number {
-    font-size: 17px;
-    color: white;
-    margin: 10px 0px 0px 690px;
-}
-.main {
-    background-color: #dbe2e2;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.grey-block-main {
-    background-color: #e7e9ed;
-    width: 240px;
-    height: 550px;
-    margin: 0px 0px 0px 100px;
-}
-.skills {
-    font-size: 25px;
-    color: #000;
-    font-weight: bold;
-    margin: -500px 0px 0px 135px;
-}
-.list {
+.about-myself p{
     font-size: 20px;
-    margin: 7px 0px 0px 115px;
+    line-height: 1.5;
 }
-.line-height {
-    line-height: 33px;
+.one{
+    margin-top: 10px;
 }
-.education {
-    font-size: 25px;
-    font-weight: bold;
-    margin: 35px 0px 0px 135px;
-}
-.education-text {
+.education p{
     font-size: 20px;
-    margin: 0px 0px 0px 135px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
-.code-text {
-    font-size: 25px;
-    font-weight: bold;
-    margin: -415px 0px 0px 415px;
+.education h3{
+    margin-bottom: 10px;
 }
-.code {
-    font-size: 20px;
-    margin: 0px 0px 0px 415px;
+.courses li{
+    font-size: 23px;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 1.5;
 }
-.white-block-main {
-    background-color: white;
-    width: 550px;
-    height: 140px;
-    margin: -150px 0px 0px 400px;;
+.courses h3{
+    margin-bottom: 0;
 }
-
-.example {
-    margin: 25px 0px 0px 415px;
-}
-.githuburl {
-    margin: 15px 0px 0px 415px;
-}
-.nav-list {
-    list-style: none;
-}
-.link :hover {
+.course{
     padding: 0;
-}
-.container-footer {
-    height: 125px;
-    background-color: #f1f5f4;
-}
-.svg {
-    width: 240px;
-    height: 125px;
-    margin: 0px 0px 0px 100px;
-}
-.logo-github {
-    width: 5px;
-    height: 5px;
-    margin: -120px 0px 0px 400px;
-}
-.year {
-    font-size: 30px;
-    font-weight: bold;
-    margin: 27px 0px 0px 600px;
+    margin-top: 5px;
 }
